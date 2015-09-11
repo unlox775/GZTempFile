@@ -1,5 +1,19 @@
 <?php
 
+/********************
+ *
+ * GZTempFile - Simple GZ file writer with multi-use filehandle
+ *
+ * 2015 by David Buchanan - http://joesvolcano.net/
+ *
+ * GitHub: https://github.com/unlox775/GZTempFile
+ *
+ * Based on Code snippet on PHP.net docs by David Gero:
+ *
+ *     http://php.net/manual/en/function.gzopen.php
+ *
+ ********************/
+
 class GZTempFile {
 	private $__fh = null;
 	public $uncompressed_bytes = 0;
